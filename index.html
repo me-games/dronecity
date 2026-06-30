@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drone City</title>
+    <link rel="icon" href="data:," />
+    <script type="module" crossorigin src="./assets/index-DPYlpRCV.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-D_MI90fV.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <div class="hud">
+      <div class="topbar">
+        <section class="title">
+          <h1>Drone City</h1>
+          <p>Fly through the glowing rooftop gates before the timer runs out.</p>
+        </section>
+        <section class="stats" aria-live="polite">
+          <div class="stat-row"><span>Gates</span><span id="gate-count">0 / 0</span></div>
+          <div class="stat-row"><span>Time</span><span id="time-left">90.0</span></div>
+          <div class="stat-row"><span>Speed</span><span id="speed-readout">0 m/s</span></div>
+          <div class="stat-row"><span>Altitude</span><span id="altitude-readout">0 m</span></div>
+        </section>
+      </div>
+      <div class="reticle"></div>
+      <section class="status" id="status">
+        Click the city, then fly with W A S D. Space climbs, Shift dives, mouse turns, and E boosts.
+      </section>
+      <section class="meter">
+        <div class="meter-label"><span>Boost</span><span id="boost-readout">100%</span></div>
+        <div class="meter-track"><div class="meter-fill" id="boost-fill"></div></div>
+      </section>
+    </div>
+  </body>
+</html>
